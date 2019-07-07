@@ -1,0 +1,51 @@
+.swiperList image{
+  width:100%;
+}
+.search{
+  text-align: center;
+  padding:20rpx;
+}
+.search input{
+  border:1px #ccc solid;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 20rpx;
+}
+.choose,.new{
+  text-align: center;
+}
+.title{
+  font-size:36rpx;
+  color:#666;
+}
+.choose view{
+  display:flex;
+  justify-content: space-around;
+  margin-top:20rpx;
+}
+.choose navigator{
+  width:374rpx;
+}
+.choose image{
+  width:100%;
+}
+.new{
+  margin:26rpx 0;
+}
+.newList{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding:0 20rpx;
+  margin-top:26rpx;
+}
+.newList view{
+  width:340rpx;
+}
+.newList image{
+  width:100%;
+  border-radius: 20rpx;
+}
+.price{
+  color:#ccc;
+}

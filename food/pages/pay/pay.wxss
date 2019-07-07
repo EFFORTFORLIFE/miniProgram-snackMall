@@ -1,0 +1,67 @@
+.payContainer{
+  background:#f3f3f3;
+}
+.person{
+  background:#fff;
+  margin-bottom:20rpx;
+  flex-wrap: wrap;
+  padding:20rpx;
+  color:#333;
+  position:relative;
+}
+.person text{
+  width:50%;
+  display:inline-block;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.person text:nth-last-of-type(1){
+  width:100%;
+}
+.person span{
+  position:absolute;
+  top:50%;
+  right:10rpx;
+  font-size:40rpx;
+  color:#666;
+  transform: translateY(-50%);
+}
+.productItem{
+  display:flex;
+  padding:20rpx;
+  border-bottom:1px #f1f1f1 solid;
+}
+.itemImg{
+  width:150rpx;
+  height: 150rpx;
+}
+.itemImg image{
+  width:100%;
+  height:100%;
+}
+.count{
+  background:#fff;
+}
+.itemDetail{
+  display:flex;
+  flex-direction: column;
+  margin-left:20rpx;
+  justify-content: space-between;
+  color:#666;
+}
+.pay{
+  display:flex;
+  justify-content: space-between;
+  position:absolute;
+  width:100%;
+  bottom:0rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  padding-left:20rpx;
+  box-sizing: border-box;
+}
+.pay view{
+  background:#66dea0;
+  color:#fff;
+  padding:0 20rpx;
+}

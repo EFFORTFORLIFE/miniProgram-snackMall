@@ -1,0 +1,8 @@
+<view class="addrContainer">
+<form bindsubmit='confirm'>
+  <input placeholder='姓名' name="name" value="{{name}}"></input>
+  <input placeholder='电话' name="phone" value="{{phone}}"></input>
+  <input  placeholder='点击选择地址' bindtap="chooseLocation" value="{{address}}" name="address" value="{{address}}"></input>
+  <button form-type="submit">确定</button>
+</form>
+</view>

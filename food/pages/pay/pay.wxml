@@ -1,0 +1,24 @@
+<view class="payContainer">
+  <navigator  url="/pages/address/address" class="person">
+    <text>姓名：{{name}}</text>
+    <text>电话：{{phone}}</text>
+    <text>地址：{{address}}</text>
+    <span>></span>
+  </navigator>
+  <view class="count">
+    <view wx:for="{{productList}}" wx:key="{{index}}" class="productItem">
+      <view class="itemImg">
+        <image src="{{item.pic}}"></image>
+      </view>
+      <view class="itemDetail">
+        <text>{{item.name}}</text>
+        <text>{{item.num}}kg</text>
+        <text>￥{{item.price}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="pay">
+    <text>付款合计：￥{{total}}</text>
+    <view>去付款</view>
+  </view>
+</view>

@@ -1,0 +1,24 @@
+<view class="cartList">
+  <view class="cartItem" wx:for="{{cartList}}" wx:key="{{index}}">
+    <checkbox checked='{{item.checked}}' bindtap="itemChecked" data-index="{{index}}" data-checked="{{item.checked}}"></checkbox>
+    <view class="itemImg">
+      <image src="{{item.pic}}" mode="widthFix"></image>
+    </view>
+    <view class="itemDetail">
+      <view class="about">
+        <text>{{item.name}}</text>
+        <text>￥{{item.price}}</text>
+      </view>
+      <view class="count">
+        <text bindtap='cut' data-id="{{item.id}}" data-index="{{index}}">-</text><text>{{item.num}}</text><text bindtap='add' data-id="{{item.id}}" data-index="{{index}}">+</text><text bindtap="delItem" data-index="{{index}}">×</text>
+      </view>
+    </view>
+  </view>
+   <view class="counter" wx:if="{{cartList.length}}">
+      <checkbox checked="{{selectAll}}" bindtap="chooseAll">全选</checkbox>
+      <navigator url="/pages/pay/pay?total={{total}}&cartList={{cartList}}">
+        <text>￥{{total}}</text>
+        <text decode>&nbsp;&nbsp;-></text>
+      </navigator>
+    </view>
+</view>

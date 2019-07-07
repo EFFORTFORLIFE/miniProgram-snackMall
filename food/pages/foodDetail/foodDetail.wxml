@@ -1,0 +1,10 @@
+<view>
+  <image src="/image/list1.png" mode="widthFix"></image>
+  <view class="newList">
+    <view wx:for="{{newList}}" wx:key="{{index}}">
+      <image src="{{item.pic}}" mode="widthFix"></image>
+      <view>{{item.title}}</view>
+      <view class="price">￥{{item.price}}</view>
+    </view>
+  </view>
+</view>

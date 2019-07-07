@@ -1,0 +1,19 @@
+form{
+  width:100%;
+}
+input{
+  width:80%;
+  border:1px solid #ccc;
+  border-radius: 10rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  padding-left:10rpx;
+  margin:0 auto;
+  margin-top:20rpx;
+}
+button{
+  margin-top:20rpx;
+  width: 80%;
+  color:#fff;
+  background:#66dea0;
+}

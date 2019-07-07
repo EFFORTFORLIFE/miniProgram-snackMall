@@ -1,0 +1,16 @@
+<view class="myContainer">
+<view class="person">
+  <view class="userInfo">
+    <view class="theHead">
+      <image src="{{countHead}}"></image>
+    </view>
+    <text>{{countName}}</text>
+  </view>
+  <view>关于我们</view>
+</view>
+<view class="order">
+  <text>我的订单</text>
+  <text>订单编号：Aytyuk456kh56k56k45</text>
+  <text>订单编号：Cytyuk456kfdkl6kl65</text>
+</view>
+</view>

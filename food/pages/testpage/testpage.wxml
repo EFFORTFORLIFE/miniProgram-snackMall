@@ -1,0 +1,6 @@
+<scroll-view scroll-y="true" scroll-top="200" class="scrollView">
+ <view>收到佛挡杀佛</view>
+ <view>收到佛挡杀佛</view>
+ <view>收到佛挡杀佛</view>
+ <view>收到佛挡杀佛</view>
+</scroll-view>
